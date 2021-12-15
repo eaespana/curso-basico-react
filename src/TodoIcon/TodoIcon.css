@@ -1,0 +1,33 @@
+.Icon-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+  
+.Icon-container-check {
+    position: absolute;
+    left: 12px;
+}
+  
+.Icon-container-cancel {
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+    transition: fill .15s;
+}
+
+.Icon-container:hover .Icon-container-check {
+    fill: #4caf50;
+}
+
+.Icon-container:hover .Icon-container-cancel {
+    fill: red;
+}
