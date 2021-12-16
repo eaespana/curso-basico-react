@@ -13,7 +13,8 @@ import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
 
 function AppUI() {
-    const {error,
+    const {
+      error,
       loading,
       searchedTodos,
       completeTodo,

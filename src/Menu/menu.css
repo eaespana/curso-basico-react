@@ -1,0 +1,35 @@
+.menu-nav {
+    width: 95%;
+    height: 40px;
+    max-width: 446px;
+    margin: 10px auto 8px;
+    border-bottom: solid 1px gray;
+}
+  
+.menu-ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    list-style: none;
+}
+  
+.menu-ul li {
+    width: 90px;
+    text-align: center;
+    background: transparent;
+    color: #080606;
+    cursor: pointer;
+    border: none;
+    transition: border 0.5s ease;
+}
+  
+.menu-ul li[active] {
+    border-bottom: solid #61dafa 1px;
+}
+  
+@media (min-width: 1000px) {
+    .menu-ul li:hover {
+      border-bottom: solid #eb05ff 1px;
+    }
+}
+  
